@@ -17,16 +17,11 @@ Once you've installed Temporal CLI on your platform of choice and added it to yo
 *  The Temporal Server will be available on ```localhost:7233```.
 *  The Temporal Web UI will be available at ```http://localhost:8233```.
 
-Next, clone this repository:
+Next, clone this repository and switch to the cloned directory::
 
 ```bash
 git clone https://github.com/temporalio/hello-world-project-template-python
-```
-
-Switch to the cloned directory:
-
-```bash
-hello-world-project-template-python
+cd hello-world-project-template-python
 ```
 
 Create a virtual environment for your project and install the Temporal SDK:
